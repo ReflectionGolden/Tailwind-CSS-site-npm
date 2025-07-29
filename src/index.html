@@ -8,5 +8,23 @@
 </head>
 <body class="bg-zinc-900 text-gray-200">
     <h1 class="mx-2 p-1 text-3xl 2xl:text-xl font-bold">Tailwind CSS: CLI Version</h1>
+    <div class="mx-5 my-2 px-2 py-1 w-fit max-w-9/10 lg:max-w-1/2 rounded-md bg-neutral-50/5 shadow-lg space-y-3">
+        <h2 class="text-xl font-bold">CLI Tailwind</h2>
+        <p>
+            It is possible to install Tailwind through the CLI, which is more recommended than through cdn using a script link. It works though using an input css file and creating an output file which is used by the site and influenced by what is put into the input css
+        </p>
+        <p>
+            With Tailwind CSS installed through the CLi, it is possible to make use of the VS Code plugin "Tailwind CSS IntelliSense" for autocomplete of utility classes, linting, hover previews, and highlighting of syntax so that everything is shown properly to the developer.
+        </p>
+    </div>
+    <div class="mx-5 my-2 px-2 py-1 w-fit max-w-9/10 lg:max-w-1/2 rounded-md bg-neutral-50/5 shadow-lg space-y-3">
+        <h2 class="text-xl font-bold text-aqua">Config Customisation in CLI Tailwind</h2>
+        <p>
+            The way to customise the configuration for the CLI version of Tailwind is to go into the input css file (where tailwind was imported using '@import "tailwindcss";') and making alterations using the '@theme' tag similarly to how it is done for the cdn implementation.
+        </p>
+        <p>
+            This allows any added or altered utility classes to make it into the output css file and also includes the ability for these altered of new utility classes to show up in the Tailwind CSS IntelliSense plugin's autocomplete feature.
+        </p>
+    </div>
 </body>
 </html>
